@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b2296140-0461-49e1-9e53-ffd0df558f78" name="hp@HP-HP 2014-02-26 07:06:47" runUser="hp-HP\hp" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="26e75ab9-eaf7-4bdc-9eb3-180d1303d500">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="hp_HP-HP 2014-02-26 07_06_47">
+      <DeploymentItem filename="F:\New TCS Solution\AsyncCTPLibarary\WcfMovie\bin\WcfMovie.dll" />
+      <DeploymentItem filename="F:\New TCS Solution\AsyncCTPLibarary\WcfMovie\bin\Debug\MoviesLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-02-26T07:06:47.6626503+05:30" queuing="2014-02-26T07:06:50.2307972+05:30" start="2014-02-26T07:06:50.3738054+05:30" finish="2014-02-26T07:06:51.3728625+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SortbyField" storage="f:\new tcs solution\asyncctplibarary\unittest\bin\debug\unittest.dll" id="4e87278e-4535-cf24-8254-4aae1fffc16f">
+      <Execution id="eba4b9dd-f4a4-4faa-afb9-c4a0856be03e" />
+      <TestMethod codeBase="F:/New TCS Solution/AsyncCTPLibarary/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.WcfMovieTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SortbyField" />
+    </UnitTest>
+    <UnitTest name="InsertMovie" storage="f:\new tcs solution\asyncctplibarary\unittest\bin\debug\unittest.dll" id="f760e262-a7eb-b465-0534-e2c4ebed588d">
+      <Execution id="1b212ef1-de5f-40fd-98af-1d77b5dda814" />
+      <TestMethod codeBase="F:/New TCS Solution/AsyncCTPLibarary/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.WcfMovieTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InsertMovie" />
+    </UnitTest>
+    <UnitTest name="UpdateMovie" storage="f:\new tcs solution\asyncctplibarary\unittest\bin\debug\unittest.dll" id="f82d1243-5e07-5850-287a-342a29250b19">
+      <Execution id="3eceb4b4-ced5-4d72-ab77-8e478cdf5609" />
+      <TestMethod codeBase="F:/New TCS Solution/AsyncCTPLibarary/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.WcfMovieTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateMovie" />
+    </UnitTest>
+    <UnitTest name="GetAllMoviesTest" storage="f:\new tcs solution\asyncctplibarary\unittest\bin\debug\unittest.dll" id="df876264-5bd4-f4d3-053c-3dcc707489e5">
+      <Execution id="2e4352f2-4b2f-42d5-aa98-fd0981fff077" />
+      <TestMethod codeBase="F:/New TCS Solution/AsyncCTPLibarary/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.WcfMovieTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllMoviesTest" />
+    </UnitTest>
+    <UnitTest name="SearchbyField" storage="f:\new tcs solution\asyncctplibarary\unittest\bin\debug\unittest.dll" id="40aa4fd5-9c35-8666-83bb-ab5134186cc5">
+      <Execution id="e2b94722-2461-4e3c-94df-2f5246215a09" />
+      <TestMethod codeBase="F:/New TCS Solution/AsyncCTPLibarary/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.WcfMovieTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchbyField" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="40aa4fd5-9c35-8666-83bb-ab5134186cc5" executionId="e2b94722-2461-4e3c-94df-2f5246215a09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e87278e-4535-cf24-8254-4aae1fffc16f" executionId="eba4b9dd-f4a4-4faa-afb9-c4a0856be03e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df876264-5bd4-f4d3-053c-3dcc707489e5" executionId="2e4352f2-4b2f-42d5-aa98-fd0981fff077" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f760e262-a7eb-b465-0534-e2c4ebed588d" executionId="1b212ef1-de5f-40fd-98af-1d77b5dda814" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f82d1243-5e07-5850-287a-342a29250b19" executionId="3eceb4b4-ced5-4d72-ab77-8e478cdf5609" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e2b94722-2461-4e3c-94df-2f5246215a09" testId="40aa4fd5-9c35-8666-83bb-ab5134186cc5" testName="SearchbyField" computerName="HP-HP" duration="00:00:00.2391260" startTime="2014-02-26T07:06:50.5498154+05:30" endTime="2014-02-26T07:06:51.2488554+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2b94722-2461-4e3c-94df-2f5246215a09">
+      <Output>
+        <Exception>Exception has been thrown by the target of an invocation.</Exception>
+        <ErrorInfo>
+          <Message>Unable to create instance of class UnitTest.WcfMovieTest. Error: System.ArgumentNullException: Value cannot be null.
+Parameter name: fileName.</Message>
+          <StackTrace>    at System.IO.FileInfo..ctor(String fileName)
+   at WcfMovie.Movie..ctor() in F:\New TCS Solution\AsyncCTPLibarary\WcfMovie\Service1.svc.cs:line 33
+   at UnitTest.WcfMovieTest..ctor() in F:\New TCS Solution\AsyncCTPLibarary\UnitTest\UnitTest1.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eba4b9dd-f4a4-4faa-afb9-c4a0856be03e" testId="4e87278e-4535-cf24-8254-4aae1fffc16f" testName="SortbyField" computerName="HP-HP" duration="00:00:00.0113964" startTime="2014-02-26T07:06:51.2658564+05:30" endTime="2014-02-26T07:06:51.2908578+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eba4b9dd-f4a4-4faa-afb9-c4a0856be03e">
+      <Output>
+        <Exception>Exception has been thrown by the target of an invocation.</Exception>
+        <ErrorInfo>
+          <Message>Unable to create instance of class UnitTest.WcfMovieTest. Error: System.ArgumentNullException: Value cannot be null.
+Parameter name: fileName.</Message>
+          <StackTrace>    at System.IO.FileInfo..ctor(String fileName)
+   at WcfMovie.Movie..ctor() in F:\New TCS Solution\AsyncCTPLibarary\WcfMovie\Service1.svc.cs:line 33
+   at UnitTest.WcfMovieTest..ctor() in F:\New TCS Solution\AsyncCTPLibarary\UnitTest\UnitTest1.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2e4352f2-4b2f-42d5-aa98-fd0981fff077" testId="df876264-5bd4-f4d3-053c-3dcc707489e5" testName="GetAllMoviesTest" computerName="HP-HP" duration="00:00:00.0008407" startTime="2014-02-26T07:06:51.2928579+05:30" endTime="2014-02-26T07:06:51.3048586+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e4352f2-4b2f-42d5-aa98-fd0981fff077">
+      <Output>
+        <Exception>Exception has been thrown by the target of an invocation.</Exception>
+        <ErrorInfo>
+          <Message>Unable to create instance of class UnitTest.WcfMovieTest. Error: System.ArgumentNullException: Value cannot be null.
+Parameter name: fileName.</Message>
+          <StackTrace>    at System.IO.FileInfo..ctor(String fileName)
+   at WcfMovie.Movie..ctor() in F:\New TCS Solution\AsyncCTPLibarary\WcfMovie\Service1.svc.cs:line 33
+   at UnitTest.WcfMovieTest..ctor() in F:\New TCS Solution\AsyncCTPLibarary\UnitTest\UnitTest1.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1b212ef1-de5f-40fd-98af-1d77b5dda814" testId="f760e262-a7eb-b465-0534-e2c4ebed588d" testName="InsertMovie" computerName="HP-HP" duration="00:00:00.0008587" startTime="2014-02-26T07:06:51.3068587+05:30" endTime="2014-02-26T07:06:51.3128591+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b212ef1-de5f-40fd-98af-1d77b5dda814">
+      <Output>
+        <Exception>Exception has been thrown by the target of an invocation.</Exception>
+        <ErrorInfo>
+          <Message>Unable to create instance of class UnitTest.WcfMovieTest. Error: System.ArgumentNullException: Value cannot be null.
+Parameter name: fileName.</Message>
+          <StackTrace>    at System.IO.FileInfo..ctor(String fileName)
+   at WcfMovie.Movie..ctor() in F:\New TCS Solution\AsyncCTPLibarary\WcfMovie\Service1.svc.cs:line 33
+   at UnitTest.WcfMovieTest..ctor() in F:\New TCS Solution\AsyncCTPLibarary\UnitTest\UnitTest1.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3eceb4b4-ced5-4d72-ab77-8e478cdf5609" testId="f82d1243-5e07-5850-287a-342a29250b19" testName="UpdateMovie" computerName="HP-HP" duration="00:00:00.0011298" startTime="2014-02-26T07:06:51.3138591+05:30" endTime="2014-02-26T07:06:51.3198595+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3eceb4b4-ced5-4d72-ab77-8e478cdf5609">
+      <Output>
+        <Exception>Exception has been thrown by the target of an invocation.</Exception>
+        <ErrorInfo>
+          <Message>Unable to create instance of class UnitTest.WcfMovieTest. Error: System.ArgumentNullException: Value cannot be null.
+Parameter name: fileName.</Message>
+          <StackTrace>    at System.IO.FileInfo..ctor(String fileName)
+   at WcfMovie.Movie..ctor() in F:\New TCS Solution\AsyncCTPLibarary\WcfMovie\Service1.svc.cs:line 33
+   at UnitTest.WcfMovieTest..ctor() in F:\New TCS Solution\AsyncCTPLibarary\UnitTest\UnitTest1.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

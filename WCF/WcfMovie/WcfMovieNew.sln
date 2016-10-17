@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4ACABADC-90EF-4D9C-B1F0-011F038D498B}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		WcfMovieNew1.vsmdi = WcfMovieNew1.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMovie", "WcfMovie.csproj", "{F64045C6-7AC1-4B16-89CA-7927984C2311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{2B3D4B7A-02AB-4254-945D-1D6DFE4AE844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "..\UnitTest\UnitTest.csproj", "{BD22576F-78C0-4642-817C-E067ADE371C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "..\WebClient\WebClient.csproj", "{343AC6A0-37AB-459E-A578-82D99D6B36C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "..\BusinessLayer\BusinessLayer.csproj", "{D4EBE369-8EB0-4885-8EDB-D9EE9A22E310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F64045C6-7AC1-4B16-89CA-7927984C2311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64045C6-7AC1-4B16-89CA-7927984C2311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64045C6-7AC1-4B16-89CA-7927984C2311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64045C6-7AC1-4B16-89CA-7927984C2311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3D4B7A-02AB-4254-945D-1D6DFE4AE844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3D4B7A-02AB-4254-945D-1D6DFE4AE844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3D4B7A-02AB-4254-945D-1D6DFE4AE844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3D4B7A-02AB-4254-945D-1D6DFE4AE844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD22576F-78C0-4642-817C-E067ADE371C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD22576F-78C0-4642-817C-E067ADE371C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD22576F-78C0-4642-817C-E067ADE371C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD22576F-78C0-4642-817C-E067ADE371C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343AC6A0-37AB-459E-A578-82D99D6B36C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343AC6A0-37AB-459E-A578-82D99D6B36C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343AC6A0-37AB-459E-A578-82D99D6B36C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343AC6A0-37AB-459E-A578-82D99D6B36C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4EBE369-8EB0-4885-8EDB-D9EE9A22E310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EBE369-8EB0-4885-8EDB-D9EE9A22E310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EBE369-8EB0-4885-8EDB-D9EE9A22E310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EBE369-8EB0-4885-8EDB-D9EE9A22E310}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WcfMovieNew1.vsmdi
+	EndGlobalSection
+EndGlobal
